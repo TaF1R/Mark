@@ -10,25 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfApp5
 {
     /// <summary>
-    /// Логика взаимодействия для Gost.xaml
+    /// Логика взаимодействия для Window1.xaml
     /// </summary>
-    public partial class Gost : Page
+    public partial class Window1 : Window
     {
-        public Gost()
+        public Window1()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Window1 window = new Window1();
-            window.Show();
         }
     }
 }

@@ -9,7 +9,7 @@
       Title="Gost">
 
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="111,93,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="111,93,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="144,118,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
